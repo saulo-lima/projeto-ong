@@ -7,6 +7,9 @@ The application allows users to:
 * Register a new organization
 * Access already registered partner entities
 * Request new categories of activity when needed
+* 
+You can access the project here:
+👉 https://saulo-lima.github.io/projeto-ong/
 
 ### 💡 Purpose
 
