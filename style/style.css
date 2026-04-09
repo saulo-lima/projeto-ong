@@ -68,7 +68,7 @@ main .action {
     flex-wrap: wrap;
 }
 
-main .action a {
+.btn {
     height: 5.5rem;
     font-size: 2.4rem;
     border-radius: 1.2rem;
@@ -79,12 +79,18 @@ main .action a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: opacity .3s, transform .4s;
 }
 
-main .action a + a {
+.btn-2 {
     background-color: var(--destaque);
     margin-top: 4.8rem;
     margin-bottom: 4.8rem;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.75;
 }
 
 main footer p {
