@@ -39,6 +39,7 @@ main {
     height: 52rem;
     border: var(--border);
     padding: 4.4rem 5.7rem;
+    position: relative;
 }
 
 
@@ -105,9 +106,10 @@ main footer a {
     color: #000;
 }
 
-main  form  input {
+main  form  input, main  form  select {
     width: 48.9rem;
     height: 5.5rem;
+    display: block;
     background-color: #fff;
     border: var(--border); 
     border-radius: 1.2rem;
@@ -120,9 +122,30 @@ main form label {
 }
 
 main header {
-    
+    display: flex;
+    align-items: center;
+    gap: 0 1.8rem;
 }
 
+main header i {
+    color: var(--destaque);
+   font-size: 2.4rem;
+}
+
+div.point {
+    position: relative;
+}
+
+main form input + button {
+    position: absolute;
+    right: 4rem;
+    top: calc(2.7rem - 1.4rem);
+    background-color: transparent;
+    border: none;
+    font-size: 2.4rem;
+    color: var(--destaque-inverso);
+    cursor: pointer;
+}
 
 @media screen and (max-width: 992px) {
     * {

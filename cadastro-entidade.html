@@ -27,11 +27,19 @@
                     <label for="nome-id">Nome</label>
                     <input type="text" name="nome" id="nome-id">
                     
-                    <label for="campo-id">Campo</label>
-                    <input type="text" name="campo" id="campo-id">
-                    <label for="coleta-id">Ponto de Coleta</label>
-                    <input type="text" name="coleta" id="coleta-id">
-                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                    <label for="campo-id">Campo de atuação</label>
+                    <select name="campo" id="campo-id">
+                         <option value="selecione" disabled selected>---Selecione uma opção---</option>
+                        <option value="cachorro">Abrigo de cachorro</option>
+                        <option value="gato">Abrigo de gato</option>
+                        <option value="cavalo">Abrigo de cavalo</option>
+                    </select>
+                     <label for="coleta-id">Ponto de Coleta</label>
+                    <div class="point">
+                       
+                        <input type="text" name="coleta" id="coleta-id">
+                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                    </div>
                 </form>
 
                 <a href="" class="btn ">Cadastrar </a>
